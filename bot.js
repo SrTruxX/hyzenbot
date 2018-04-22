@@ -3,6 +3,8 @@ const client = new Discord.Client();
 
 client.login(process.env.BOT_TOKEN);
 
+var prefix = '-';
+
 client.on('ready', () => {
     client.user.setGame('Viado')
 });
